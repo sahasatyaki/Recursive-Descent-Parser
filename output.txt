@@ -1,0 +1,1409 @@
+START
+
+FILE Programs Folder\program0
+BEGIN StatementPart
+	TOKEN begin on line 1
+	BEGIN StatementList
+		BEGIN Statement
+			BEGIN ProcedureStatement
+				TOKEN call on line 2
+				TOKEN IDENTIFIER 'get' on line 2
+				TOKEN ( on line 2
+				BEGIN ArgumentList
+					TOKEN IDENTIFIER 'x1' on line 2
+				END ArgumentList
+				TOKEN ) on line 2
+			END ProcedureStatement
+		END Statement
+		TOKEN ; on line 2
+		BEGIN StatementList
+			BEGIN Statement
+				BEGIN AssignmentStatement
+					TOKEN IDENTIFIER 'x2' on line 3
+					TOKEN := on line 3
+					BEGIN Expression
+						BEGIN Term
+							BEGIN Factor
+								TOKEN NUMBER '1' on line 3
+							END Factor
+						END Term
+					END Expression
+				END AssignmentStatement
+			END Statement
+			TOKEN ; on line 3
+			BEGIN StatementList
+				BEGIN Statement
+					BEGIN WhileStatement
+						TOKEN while on line 4
+						BEGIN Condition
+							TOKEN IDENTIFIER 'x1' on line 4
+							BEGIN ConditionalOperator
+								TOKEN != on line 4
+							END ConditionalOperator
+							TOKEN NUMBER '0' on line 4
+						END Condition
+						TOKEN loop on line 4
+						BEGIN StatementList
+							BEGIN Statement
+								BEGIN AssignmentStatement
+									TOKEN IDENTIFIER 'x2' on line 5
+									TOKEN := on line 5
+									BEGIN Expression
+										BEGIN Term
+											BEGIN Factor
+												TOKEN IDENTIFIER 'x2' on line 5
+											END Factor
+											TOKEN * on line 5
+											BEGIN Term
+												BEGIN Factor
+													TOKEN IDENTIFIER 'x1' on line 5
+												END Factor
+											END Term
+										END Term
+									END Expression
+								END AssignmentStatement
+							END Statement
+							TOKEN ; on line 5
+							BEGIN StatementList
+								BEGIN Statement
+									BEGIN AssignmentStatement
+										TOKEN IDENTIFIER 'x1' on line 6
+										TOKEN := on line 6
+										BEGIN Expression
+											BEGIN Term
+												BEGIN Factor
+													TOKEN IDENTIFIER 'x1' on line 6
+												END Factor
+											END Term
+											TOKEN - on line 6
+											BEGIN Expression
+												BEGIN Term
+													BEGIN Factor
+														TOKEN NUMBER '1' on line 6
+													END Factor
+												END Term
+											END Expression
+										END Expression
+									END AssignmentStatement
+								END Statement
+							END StatementList
+						END StatementList
+						TOKEN end on line 7
+						TOKEN loop on line 7
+					END WhileStatement
+				END Statement
+				TOKEN ; on line 7
+				BEGIN StatementList
+					BEGIN Statement
+						BEGIN AssignmentStatement
+							TOKEN IDENTIFIER 'text' on line 8
+							TOKEN := on line 8
+							TOKEN STRING 'the result is ' on line 8
+						END AssignmentStatement
+					END Statement
+					TOKEN ; on line 8
+					BEGIN StatementList
+						BEGIN Statement
+							BEGIN ProcedureStatement
+								TOKEN call on line 9
+								TOKEN IDENTIFIER 'put' on line 9
+								TOKEN ( on line 9
+								BEGIN ArgumentList
+									TOKEN IDENTIFIER 'text' on line 9
+								END ArgumentList
+								TOKEN ) on line 9
+							END ProcedureStatement
+						END Statement
+						TOKEN ; on line 9
+						BEGIN StatementList
+							BEGIN Statement
+								BEGIN ProcedureStatement
+									TOKEN call on line 10
+									TOKEN IDENTIFIER 'put' on line 10
+									TOKEN ( on line 10
+									BEGIN ArgumentList
+										TOKEN IDENTIFIER 'x1' on line 10
+									END ArgumentList
+									TOKEN ) on line 10
+								END ProcedureStatement
+							END Statement
+						END StatementList
+					END StatementList
+				END StatementList
+			END StatementList
+		END StatementList
+	END StatementList
+	TOKEN end on line 11
+END StatementPart
+TOKEN EOF on line 13
+SUCCESS
+
+FILE Programs Folder\program1
+BEGIN StatementPart
+	TOKEN begin on line 1
+	BEGIN StatementList
+		BEGIN Statement
+			BEGIN ProcedureStatement
+				TOKEN call on line 2
+				TOKEN IDENTIFIER 'get' on line 2
+				TOKEN ( on line 2
+				BEGIN ArgumentList
+					TOKEN IDENTIFIER 'x1' on line 2
+				END ArgumentList
+				TOKEN ) on line 2
+			END ProcedureStatement
+		END Statement
+		TOKEN ; on line 2
+		BEGIN StatementList
+			BEGIN Statement
+				BEGIN AssignmentStatement
+					TOKEN IDENTIFIER 'x2' on line 3
+					TOKEN := on line 3
+					BEGIN Expression
+						BEGIN Term
+							BEGIN Factor
+								TOKEN NUMBER '1' on line 3
+							END Factor
+						END Term
+					END Expression
+				END AssignmentStatement
+			END Statement
+			TOKEN ; on line 3
+			BEGIN StatementList
+				BEGIN Statement
+					BEGIN WhileStatement
+						TOKEN while on line 4
+						BEGIN Condition
+							TOKEN IDENTIFIER 'x1' on line 4
+							BEGIN ConditionalOperator
+								TOKEN != on line 4
+							END ConditionalOperator
+							TOKEN NUMBER '0' on line 4
+						END Condition
+						TOKEN loop on line 4
+						BEGIN StatementList
+							BEGIN Statement
+								BEGIN AssignmentStatement
+									TOKEN IDENTIFIER 'x2' on line 5
+									TOKEN := on line 5
+									BEGIN Expression
+										BEGIN Term
+											BEGIN Factor
+												TOKEN IDENTIFIER 'x2' on line 5
+											END Factor
+											TOKEN * on line 5
+											BEGIN Term
+												BEGIN Factor
+													TOKEN IDENTIFIER 'x1' on line 5
+												END Factor
+											END Term
+										END Term
+									END Expression
+								END AssignmentStatement
+							END Statement
+							TOKEN ; on line 5
+							BEGIN StatementList
+								BEGIN Statement
+									BEGIN AssignmentStatement
+										TOKEN IDENTIFIER 'x1' on line 6
+										TOKEN := on line 6
+										BEGIN Expression
+											BEGIN Term
+												BEGIN Factor
+													TOKEN IDENTIFIER 'x1' on line 6
+												END Factor
+											END Term
+											TOKEN - on line 6
+											BEGIN Expression
+												BEGIN Term
+													BEGIN Factor
+														TOKEN NUMBER '1' on line 6
+													END Factor
+												END Term
+											END Expression
+										END Expression
+									END AssignmentStatement
+								END Statement
+							END StatementList
+						END StatementList
+						TOKEN end on line 7
+						TOKEN loop on line 7
+					END WhileStatement
+				END Statement
+				TOKEN ; on line 7
+				BEGIN StatementList
+					BEGIN Statement
+						BEGIN AssignmentStatement
+							TOKEN IDENTIFIER 'text' on line 8
+							TOKEN := on line 8
+							TOKEN STRING 'the result is ' on line 8
+						END AssignmentStatement
+					END Statement
+					TOKEN ; on line 8
+					BEGIN StatementList
+						BEGIN Statement
+							BEGIN ProcedureStatement
+								TOKEN call on line 9
+								TOKEN IDENTIFIER 'put' on line 9
+								TOKEN ( on line 9
+								BEGIN ArgumentList
+									TOKEN IDENTIFIER 'text' on line 9
+								END ArgumentList
+								TOKEN ) on line 9
+							END ProcedureStatement
+						END Statement
+						TOKEN ; on line 9
+						BEGIN StatementList
+							BEGIN Statement
+								BEGIN ProcedureStatement
+									TOKEN call on line 10
+									TOKEN IDENTIFIER 'put' on line 10
+									TOKEN ( on line 10
+									BEGIN ArgumentList
+										TOKEN IDENTIFIER 'x1' on line 10
+									END ArgumentList
+									TOKEN ) on line 10
+								END ProcedureStatement
+							END Statement
+						END StatementList
+					END StatementList
+				END StatementList
+			END StatementList
+		END StatementList
+	END StatementList
+	TOKEN end on line 11
+END StatementPart
+TOKEN EOF on line 12
+SUCCESS
+
+FILE Programs Folder\program2
+BEGIN StatementPart
+	ERROR: Expected begin
+	File --> Programs Folder\program2 Unexpected token: IDENTIFIER 'begim' on line 1
+
+FILE Programs Folder\program3
+BEGIN StatementPart
+	TOKEN begin on line 1
+	BEGIN StatementList
+		BEGIN Statement
+			BEGIN ProcedureStatement
+				TOKEN call on line 2
+				TOKEN IDENTIFIER 'get' on line 2
+				TOKEN ( on line 2
+				BEGIN ArgumentList
+					TOKEN IDENTIFIER 'x1' on line 2
+				END ArgumentList
+				TOKEN ) on line 2
+			END ProcedureStatement
+		END Statement
+		TOKEN ; on line 2
+		BEGIN StatementList
+			BEGIN Statement
+				BEGIN AssignmentStatement
+					TOKEN IDENTIFIER 'x2' on line 3
+					TOKEN := on line 3
+					BEGIN Expression
+						BEGIN Term
+							BEGIN Factor
+								TOKEN NUMBER '1' on line 3
+							END Factor
+						END Term
+					END Expression
+				END AssignmentStatement
+			END Statement
+			TOKEN ; on line 3
+			BEGIN StatementList
+				BEGIN Statement
+					BEGIN IfStatement
+						TOKEN if on line 4
+						BEGIN Condition
+							TOKEN IDENTIFIER 'x1' on line 4
+							BEGIN ConditionalOperator
+								TOKEN != on line 4
+							END ConditionalOperator
+							TOKEN NUMBER '0' on line 4
+						END Condition
+						TOKEN then on line 4
+						BEGIN StatementList
+							BEGIN Statement
+								BEGIN AssignmentStatement
+									TOKEN IDENTIFIER 'x2' on line 5
+									TOKEN := on line 5
+									BEGIN Expression
+										BEGIN Term
+											BEGIN Factor
+												TOKEN IDENTIFIER 'x2' on line 5
+											END Factor
+											TOKEN * on line 5
+											BEGIN Term
+												BEGIN Factor
+													TOKEN IDENTIFIER 'x1' on line 5
+												END Factor
+											END Term
+										END Term
+									END Expression
+								END AssignmentStatement
+							END Statement
+							TOKEN ; on line 5
+							BEGIN StatementList
+								BEGIN Statement
+									BEGIN AssignmentStatement
+										TOKEN IDENTIFIER 'text' on line 6
+										TOKEN := on line 6
+										TOKEN STRING 'the result is ' on line 6
+									END AssignmentStatement
+								END Statement
+								TOKEN ; on line 6
+								BEGIN StatementList
+									BEGIN Statement
+										BEGIN ProcedureStatement
+											TOKEN call on line 7
+											TOKEN IDENTIFIER 'put' on line 7
+											TOKEN ( on line 7
+											BEGIN ArgumentList
+												TOKEN IDENTIFIER 'text' on line 7
+											END ArgumentList
+											TOKEN ) on line 7
+										END ProcedureStatement
+									END Statement
+									TOKEN ; on line 7
+									BEGIN StatementList
+										BEGIN Statement
+											BEGIN ProcedureStatement
+												TOKEN call on line 8
+												TOKEN IDENTIFIER 'put' on line 8
+												TOKEN ( on line 8
+												BEGIN ArgumentList
+													TOKEN IDENTIFIER 'x1' on line 8
+												END ArgumentList
+												TOKEN ) on line 8
+											END ProcedureStatement
+										END Statement
+									END StatementList
+								END StatementList
+							END StatementList
+						END StatementList
+						TOKEN end on line 9
+						ERROR: Missing 'if' after 'end' in 'if' statement.
+						File --> Programs Folder\program3 Unexpected token: EOF '' on line 11
+
+FILE Programs Folder\program4
+BEGIN StatementPart
+	TOKEN begin on line 1
+	BEGIN StatementList
+		BEGIN Statement
+			BEGIN ProcedureStatement
+				TOKEN call on line 2
+				TOKEN IDENTIFIER 'get' on line 2
+				TOKEN ( on line 2
+				BEGIN ArgumentList
+					TOKEN IDENTIFIER 'x1' on line 2
+				END ArgumentList
+				TOKEN ) on line 2
+			END ProcedureStatement
+		END Statement
+		TOKEN ; on line 2
+		BEGIN StatementList
+			BEGIN Statement
+				BEGIN AssignmentStatement
+					TOKEN IDENTIFIER 'x2' on line 3
+					TOKEN := on line 3
+					BEGIN Expression
+						BEGIN Term
+							BEGIN Factor
+								TOKEN NUMBER '1' on line 3
+							END Factor
+						END Term
+					END Expression
+				END AssignmentStatement
+			END Statement
+			TOKEN ; on line 3
+			BEGIN StatementList
+				BEGIN Statement
+					BEGIN WhileStatement
+						TOKEN while on line 4
+						BEGIN Condition
+							TOKEN IDENTIFIER 'x1' on line 4
+							BEGIN ConditionalOperator
+								TOKEN != on line 4
+							END ConditionalOperator
+							TOKEN NUMBER '0' on line 4
+						END Condition
+						TOKEN loop on line 4
+						BEGIN StatementList
+							BEGIN Statement
+								BEGIN AssignmentStatement
+									TOKEN IDENTIFIER 'x2' on line 5
+									TOKEN := on line 5
+									BEGIN Expression
+										BEGIN Term
+											BEGIN Factor
+												TOKEN IDENTIFIER 'x2' on line 5
+											END Factor
+											TOKEN * on line 5
+											BEGIN Term
+												BEGIN Factor
+													TOKEN IDENTIFIER 'x1' on line 5
+												END Factor
+											END Term
+										END Term
+									END Expression
+								END AssignmentStatement
+							END Statement
+							TOKEN ; on line 5
+							BEGIN StatementList
+								BEGIN Statement
+									BEGIN AssignmentStatement
+										TOKEN IDENTIFIER 'x1' on line 6
+										TOKEN := on line 6
+										BEGIN Expression
+											BEGIN Term
+												BEGIN Factor
+													TOKEN IDENTIFIER 'x1' on line 6
+												END Factor
+											END Term
+											TOKEN - on line 6
+											BEGIN Expression
+												BEGIN Term
+													BEGIN Factor
+														TOKEN NUMBER '1' on line 6
+													END Factor
+												END Term
+											END Expression
+										END Expression
+									END AssignmentStatement
+								END Statement
+								TOKEN ; on line 6
+								BEGIN StatementList
+									BEGIN Statement
+										ERROR: Unexpected token. Expected a statement.
+										File --> Programs Folder\program4 Unexpected token: end 'end' on line 7
+
+FILE Programs Folder\program5
+BEGIN StatementPart
+	TOKEN begin on line 1
+	BEGIN StatementList
+		BEGIN Statement
+			BEGIN ProcedureStatement
+				TOKEN call on line 2
+				TOKEN IDENTIFIER 'get' on line 2
+				TOKEN ( on line 2
+				BEGIN ArgumentList
+					TOKEN IDENTIFIER 'x1' on line 2
+				END ArgumentList
+				TOKEN ) on line 2
+			END ProcedureStatement
+		END Statement
+		TOKEN ; on line 2
+		BEGIN StatementList
+			BEGIN Statement
+				BEGIN AssignmentStatement
+					TOKEN IDENTIFIER 'x2' on line 3
+					TOKEN := on line 3
+					BEGIN Expression
+						BEGIN Term
+							BEGIN Factor
+								TOKEN NUMBER '1' on line 3
+							END Factor
+						END Term
+					END Expression
+				END AssignmentStatement
+			END Statement
+			TOKEN ; on line 3
+			BEGIN StatementList
+				BEGIN Statement
+					BEGIN WhileStatement
+						TOKEN while on line 4
+						BEGIN Condition
+							TOKEN IDENTIFIER 'x1' on line 4
+							BEGIN ConditionalOperator
+								TOKEN != on line 4
+							END ConditionalOperator
+							TOKEN NUMBER '0' on line 4
+						END Condition
+						TOKEN loop on line 4
+						BEGIN StatementList
+							BEGIN Statement
+								BEGIN AssignmentStatement
+									TOKEN IDENTIFIER 'x2' on line 5
+									TOKEN := on line 5
+									BEGIN Expression
+										BEGIN Term
+											BEGIN Factor
+												TOKEN IDENTIFIER 'x2' on line 5
+											END Factor
+											TOKEN * on line 5
+											BEGIN Term
+												BEGIN Factor
+													TOKEN IDENTIFIER 'x1' on line 5
+												END Factor
+											END Term
+										END Term
+									END Expression
+								END AssignmentStatement
+							END Statement
+							TOKEN ; on line 5
+							BEGIN StatementList
+								BEGIN Statement
+									BEGIN AssignmentStatement
+										TOKEN IDENTIFIER 'x1' on line 6
+										TOKEN := on line 6
+										BEGIN Expression
+											BEGIN Term
+												BEGIN Factor
+													TOKEN IDENTIFIER 'x1' on line 6
+												END Factor
+											END Term
+											TOKEN - on line 6
+											BEGIN Expression
+												BEGIN Term
+													BEGIN Factor
+														TOKEN NUMBER '1' on line 6
+													END Factor
+												END Term
+											END Expression
+										END Expression
+									END AssignmentStatement
+								END Statement
+							END StatementList
+						END StatementList
+						TOKEN end on line 7
+						ERROR: Expected 'loop' after 'end' to close while block.
+						File --> Programs Folder\program5 Unexpected token: ; ';' on line 7
+
+FILE Programs Folder\program6
+BEGIN StatementPart
+	TOKEN begin on line 1
+	BEGIN StatementList
+		BEGIN Statement
+			BEGIN ProcedureStatement
+				TOKEN call on line 2
+				TOKEN IDENTIFIER 'get' on line 2
+				TOKEN ( on line 2
+				BEGIN ArgumentList
+					TOKEN IDENTIFIER 'x1' on line 2
+				END ArgumentList
+				TOKEN ) on line 2
+			END ProcedureStatement
+		END Statement
+		TOKEN ; on line 2
+		BEGIN StatementList
+			BEGIN Statement
+				BEGIN AssignmentStatement
+					TOKEN IDENTIFIER 'x2' on line 3
+					TOKEN := on line 3
+					BEGIN Expression
+						BEGIN Term
+							BEGIN Factor
+								TOKEN NUMBER '1' on line 3
+							END Factor
+						END Term
+					END Expression
+				END AssignmentStatement
+			END Statement
+			TOKEN ; on line 3
+			BEGIN StatementList
+				BEGIN Statement
+					BEGIN WhileStatement
+						TOKEN while on line 4
+						BEGIN Condition
+							TOKEN IDENTIFIER 'x1' on line 4
+							BEGIN ConditionalOperator
+								TOKEN != on line 4
+							END ConditionalOperator
+							TOKEN NUMBER '0' on line 4
+						END Condition
+						TOKEN loop on line 4
+						BEGIN StatementList
+							BEGIN Statement
+								BEGIN AssignmentStatement
+									TOKEN IDENTIFIER 'x2' on line 5
+									TOKEN := on line 5
+									BEGIN Expression
+										BEGIN Term
+											BEGIN Factor
+												TOKEN IDENTIFIER 'a' on line 5
+											END Factor
+										END Term
+										TOKEN - on line 5
+										BEGIN Expression
+											BEGIN Term
+												BEGIN Factor
+													TOKEN IDENTIFIER 'b' on line 5
+												END Factor
+											END Term
+											TOKEN + on line 5
+											BEGIN Expression
+												BEGIN Term
+													BEGIN Factor
+														TOKEN IDENTIFIER 'c' on line 5
+													END Factor
+												END Term
+												TOKEN - on line 5
+												BEGIN Expression
+													BEGIN Term
+														BEGIN Factor
+															TOKEN IDENTIFIER 'd' on line 5
+														END Factor
+													END Term
+													TOKEN + on line 5
+													BEGIN Expression
+														BEGIN Term
+															BEGIN Factor
+																TOKEN IDENTIFIER 'e' on line 5
+															END Factor
+														END Term
+													END Expression
+												END Expression
+											END Expression
+										END Expression
+									END Expression
+								END AssignmentStatement
+							END Statement
+							TOKEN ; on line 5
+							BEGIN StatementList
+								BEGIN Statement
+									BEGIN AssignmentStatement
+										TOKEN IDENTIFIER 'x1' on line 6
+										TOKEN := on line 6
+										BEGIN Expression
+											BEGIN Term
+												BEGIN Factor
+													TOKEN IDENTIFIER 'a' on line 6
+												END Factor
+												TOKEN * on line 6
+												BEGIN Term
+													BEGIN Factor
+														TOKEN IDENTIFIER 'b' on line 6
+													END Factor
+												END Term
+											END Term
+											TOKEN - on line 6
+											BEGIN Expression
+												BEGIN Term
+													BEGIN Factor
+														TOKEN IDENTIFIER 'c' on line 6
+													END Factor
+													TOKEN / on line 6
+													BEGIN Term
+														BEGIN Factor
+															TOKEN IDENTIFIER 'd' on line 6
+														END Factor
+													END Term
+												END Term
+												TOKEN + on line 6
+												BEGIN Expression
+													BEGIN Term
+														BEGIN Factor
+															TOKEN IDENTIFIER 'e' on line 6
+														END Factor
+													END Term
+												END Expression
+											END Expression
+										END Expression
+									END AssignmentStatement
+								END Statement
+							END StatementList
+						END StatementList
+						TOKEN end on line 7
+						TOKEN loop on line 7
+					END WhileStatement
+				END Statement
+				TOKEN ; on line 7
+				BEGIN StatementList
+					BEGIN Statement
+						BEGIN AssignmentStatement
+							TOKEN IDENTIFIER 'text' on line 8
+							TOKEN := on line 8
+							TOKEN STRING 'the result is ' on line 8
+						END AssignmentStatement
+					END Statement
+					TOKEN ; on line 8
+					BEGIN StatementList
+						BEGIN Statement
+							BEGIN ProcedureStatement
+								TOKEN call on line 9
+								TOKEN IDENTIFIER 'put' on line 9
+								TOKEN ( on line 9
+								BEGIN ArgumentList
+									TOKEN IDENTIFIER 'text' on line 9
+								END ArgumentList
+								TOKEN ) on line 9
+							END ProcedureStatement
+						END Statement
+						TOKEN ; on line 9
+						BEGIN StatementList
+							BEGIN Statement
+								BEGIN ProcedureStatement
+									TOKEN call on line 10
+									TOKEN IDENTIFIER 'put' on line 10
+									TOKEN ( on line 10
+									BEGIN ArgumentList
+										TOKEN IDENTIFIER 'x1' on line 10
+									END ArgumentList
+									TOKEN ) on line 10
+								END ProcedureStatement
+							END Statement
+						END StatementList
+					END StatementList
+				END StatementList
+			END StatementList
+		END StatementList
+	END StatementList
+	TOKEN end on line 11
+END StatementPart
+TOKEN EOF on line 13
+SUCCESS
+
+FILE Programs Folder\program7
+BEGIN StatementPart
+	TOKEN begin on line 1
+	BEGIN StatementList
+		BEGIN Statement
+			BEGIN ProcedureStatement
+				TOKEN call on line 2
+				TOKEN IDENTIFIER 'get' on line 2
+				TOKEN ( on line 2
+				BEGIN ArgumentList
+					TOKEN IDENTIFIER 'x1' on line 2
+				END ArgumentList
+				TOKEN ) on line 2
+			END ProcedureStatement
+		END Statement
+		TOKEN ; on line 2
+		BEGIN StatementList
+			BEGIN Statement
+				BEGIN AssignmentStatement
+					TOKEN IDENTIFIER 'x2' on line 3
+					TOKEN := on line 3
+					BEGIN Expression
+						BEGIN Term
+							BEGIN Factor
+								TOKEN NUMBER '1' on line 3
+							END Factor
+						END Term
+					END Expression
+				END AssignmentStatement
+			END Statement
+			TOKEN ; on line 3
+			BEGIN StatementList
+				BEGIN Statement
+					ERROR: Unexpected token. Expected a statement.
+					File --> Programs Folder\program7 Unexpected token: else 'else' on line 4
+
+FILE Programs Folder\program8
+BEGIN StatementPart
+	TOKEN begin on line 1
+	BEGIN StatementList
+		BEGIN Statement
+			BEGIN ProcedureStatement
+				TOKEN call on line 2
+				TOKEN IDENTIFIER 'get' on line 2
+				TOKEN ( on line 2
+				BEGIN ArgumentList
+					TOKEN IDENTIFIER 'x1' on line 2
+				END ArgumentList
+				TOKEN ) on line 2
+			END ProcedureStatement
+		END Statement
+		TOKEN ; on line 2
+		BEGIN StatementList
+			BEGIN Statement
+				BEGIN AssignmentStatement
+					TOKEN IDENTIFIER 'x2' on line 3
+					TOKEN := on line 3
+					BEGIN Expression
+						BEGIN Term
+							BEGIN Factor
+								TOKEN NUMBER '1' on line 3
+							END Factor
+						END Term
+					END Expression
+				END AssignmentStatement
+			END Statement
+			TOKEN ; on line 3
+			BEGIN StatementList
+				BEGIN Statement
+					BEGIN WhileStatement
+						TOKEN while on line 4
+						BEGIN Condition
+							TOKEN IDENTIFIER 'x1' on line 4
+							BEGIN ConditionalOperator
+								TOKEN != on line 4
+							END ConditionalOperator
+							TOKEN NUMBER '0' on line 4
+						END Condition
+						TOKEN loop on line 4
+						BEGIN StatementList
+							BEGIN Statement
+								BEGIN AssignmentStatement
+									TOKEN IDENTIFIER 'x2' on line 5
+									TOKEN := on line 5
+									BEGIN Expression
+										BEGIN Term
+											BEGIN Factor
+												TOKEN IDENTIFIER 'x2' on line 5
+											END Factor
+											TOKEN * on line 5
+											BEGIN Term
+												BEGIN Factor
+													TOKEN IDENTIFIER 'x1' on line 5
+												END Factor
+											END Term
+										END Term
+									END Expression
+								END AssignmentStatement
+							END Statement
+							TOKEN ; on line 5
+							BEGIN StatementList
+								BEGIN Statement
+									BEGIN AssignmentStatement
+										TOKEN IDENTIFIER 'x1' on line 6
+										TOKEN := on line 6
+										BEGIN Expression
+											BEGIN Term
+												BEGIN Factor
+													TOKEN IDENTIFIER 'x1' on line 6
+												END Factor
+											END Term
+											TOKEN - on line 6
+											BEGIN Expression
+												BEGIN Term
+													BEGIN Factor
+														TOKEN NUMBER '1' on line 6
+													END Factor
+												END Term
+											END Expression
+										END Expression
+									END AssignmentStatement
+								END Statement
+							END StatementList
+						END StatementList
+						TOKEN end on line 7
+						TOKEN loop on line 7
+					END WhileStatement
+				END Statement
+				TOKEN ; on line 7
+				BEGIN StatementList
+					BEGIN Statement
+						BEGIN AssignmentStatement
+							TOKEN IDENTIFIER 'text' on line 8
+							TOKEN := on line 8
+							TOKEN STRING 'the result is ' on line 8
+						END AssignmentStatement
+					END Statement
+					TOKEN ; on line 8
+					BEGIN StatementList
+						BEGIN Statement
+							BEGIN ProcedureStatement
+								TOKEN call on line 9
+								TOKEN IDENTIFIER 'put' on line 9
+								TOKEN ( on line 9
+								BEGIN ArgumentList
+									TOKEN IDENTIFIER 'text' on line 9
+								END ArgumentList
+								TOKEN ) on line 9
+							END ProcedureStatement
+						END Statement
+						TOKEN ; on line 9
+						BEGIN StatementList
+							BEGIN Statement
+								BEGIN ProcedureStatement
+									TOKEN call on line 10
+									TOKEN IDENTIFIER 'put' on line 10
+									TOKEN ( on line 10
+									BEGIN ArgumentList
+										TOKEN IDENTIFIER 'x1' on line 10
+									END ArgumentList
+									TOKEN ) on line 10
+								END ProcedureStatement
+							END Statement
+						END StatementList
+					END StatementList
+				END StatementList
+			END StatementList
+		END StatementList
+	END StatementList
+	TOKEN end on line 11
+END StatementPart
+ERROR: Expected EOF
+File --> Programs Folder\program8 Unexpected token: call 'call' on line 12
+
+FILE Programs Folder\program9
+BEGIN StatementPart
+	TOKEN begin on line 0
+	BEGIN StatementList
+		BEGIN Statement
+			BEGIN ProcedureStatement
+				TOKEN call on line 1
+				TOKEN IDENTIFIER 'get' on line 1
+				TOKEN ( on line 1
+				BEGIN ArgumentList
+					TOKEN IDENTIFIER 'x1' on line 1
+				END ArgumentList
+				TOKEN ) on line 1
+			END ProcedureStatement
+		END Statement
+		TOKEN ; on line 1
+		BEGIN StatementList
+			BEGIN Statement
+				BEGIN AssignmentStatement
+					TOKEN IDENTIFIER 'x3' on line 2
+					TOKEN := on line 2
+					BEGIN Expression
+						BEGIN Term
+							BEGIN Factor
+								TOKEN NUMBER '0' on line 2
+							END Factor
+						END Term
+					END Expression
+				END AssignmentStatement
+			END Statement
+			TOKEN ; on line 2
+			BEGIN StatementList
+				BEGIN Statement
+					BEGIN ForStatement
+						TOKEN for on line 3
+						TOKEN ( on line 3
+						BEGIN AssignmentStatement
+							TOKEN IDENTIFIER 'x2' on line 3
+							TOKEN := on line 3
+							BEGIN Expression
+								BEGIN Term
+									BEGIN Factor
+										TOKEN NUMBER '1' on line 3
+									END Factor
+								END Term
+							END Expression
+						END AssignmentStatement
+						TOKEN ; on line 3
+						BEGIN Condition
+							TOKEN IDENTIFIER 'x2' on line 3
+							BEGIN ConditionalOperator
+								TOKEN < on line 3
+							END ConditionalOperator
+							TOKEN IDENTIFIER 'x1' on line 3
+						END Condition
+						TOKEN ; on line 3
+						BEGIN AssignmentStatement
+							TOKEN IDENTIFIER 'x2' on line 3
+							TOKEN := on line 3
+							BEGIN Expression
+								BEGIN Term
+									BEGIN Factor
+										TOKEN IDENTIFIER 'x2' on line 3
+									END Factor
+								END Term
+								TOKEN + on line 3
+								BEGIN Expression
+									BEGIN Term
+										BEGIN Factor
+											TOKEN NUMBER '1' on line 3
+										END Factor
+									END Term
+								END Expression
+							END Expression
+						END AssignmentStatement
+						TOKEN ) on line 3
+						TOKEN do on line 3
+						BEGIN StatementList
+							BEGIN Statement
+								BEGIN ProcedureStatement
+									TOKEN call on line 4
+									TOKEN IDENTIFIER 'put' on line 4
+									TOKEN ( on line 4
+									BEGIN ArgumentList
+										TOKEN IDENTIFIER 'x1' on line 4
+										TOKEN , on line 4
+										BEGIN ArgumentList
+											TOKEN IDENTIFIER 'x2' on line 4
+											TOKEN , on line 4
+											BEGIN ArgumentList
+												TOKEN IDENTIFIER 'x3' on line 4
+											END ArgumentList
+										END ArgumentList
+									END ArgumentList
+									TOKEN ) on line 4
+								END ProcedureStatement
+							END Statement
+							TOKEN ; on line 4
+							BEGIN StatementList
+								BEGIN Statement
+									BEGIN AssignmentStatement
+										TOKEN IDENTIFIER 'x3' on line 5
+										TOKEN := on line 5
+										BEGIN Expression
+											BEGIN Term
+												BEGIN Factor
+													TOKEN IDENTIFIER 'x3' on line 5
+												END Factor
+											END Term
+											TOKEN + on line 5
+											BEGIN Expression
+												BEGIN Term
+													BEGIN Factor
+														TOKEN IDENTIFIER 'x2' on line 5
+													END Factor
+												END Term
+											END Expression
+										END Expression
+									END AssignmentStatement
+								END Statement
+							END StatementList
+						END StatementList
+						TOKEN end on line 6
+						TOKEN loop on line 6
+					END ForStatement
+				END Statement
+				TOKEN ; on line 6
+				BEGIN StatementList
+					BEGIN Statement
+						BEGIN ProcedureStatement
+							TOKEN call on line 7
+							TOKEN IDENTIFIER 'put' on line 7
+							TOKEN ( on line 7
+							BEGIN ArgumentList
+								TOKEN IDENTIFIER 'x3' on line 7
+							END ArgumentList
+							TOKEN ) on line 7
+						END ProcedureStatement
+					END Statement
+				END StatementList
+			END StatementList
+		END StatementList
+	END StatementList
+	TOKEN end on line 8
+END StatementPart
+TOKEN EOF on line 9
+SUCCESS
+
+FILE Programs Folder\program10
+BEGIN StatementPart
+	TOKEN begin on line 0
+	BEGIN StatementList
+		BEGIN Statement
+			BEGIN ProcedureStatement
+				TOKEN call on line 0
+				TOKEN IDENTIFIER 'get' on line 0
+				TOKEN ( on line 0
+				BEGIN ArgumentList
+					TOKEN IDENTIFIER 'x1' on line 0
+				END ArgumentList
+				TOKEN ) on line 0
+			END ProcedureStatement
+		END Statement
+		TOKEN ; on line 0
+		BEGIN StatementList
+			BEGIN Statement
+				BEGIN AssignmentStatement
+					TOKEN IDENTIFIER 'x3' on line 0
+					TOKEN := on line 0
+					BEGIN Expression
+						BEGIN Term
+							BEGIN Factor
+								TOKEN NUMBER '0' on line 0
+							END Factor
+						END Term
+					END Expression
+				END AssignmentStatement
+			END Statement
+			TOKEN ; on line 0
+			BEGIN StatementList
+				BEGIN Statement
+					BEGIN ForStatement
+						TOKEN for on line 0
+						TOKEN ( on line 0
+						BEGIN AssignmentStatement
+							TOKEN IDENTIFIER 'x2' on line 0
+							TOKEN := on line 0
+							BEGIN Expression
+								BEGIN Term
+									BEGIN Factor
+										TOKEN NUMBER '1' on line 0
+									END Factor
+								END Term
+							END Expression
+						END AssignmentStatement
+						TOKEN ; on line 0
+						BEGIN Condition
+							TOKEN IDENTIFIER 'x2' on line 0
+							BEGIN ConditionalOperator
+								TOKEN < on line 0
+							END ConditionalOperator
+							TOKEN IDENTIFIER 'x1' on line 0
+						END Condition
+						TOKEN ; on line 0
+						BEGIN AssignmentStatement
+							TOKEN IDENTIFIER 'x2' on line 0
+							TOKEN := on line 0
+							BEGIN Expression
+								BEGIN Term
+									BEGIN Factor
+										TOKEN IDENTIFIER 'x2' on line 0
+									END Factor
+								END Term
+								TOKEN + on line 0
+								BEGIN Expression
+									BEGIN Term
+										BEGIN Factor
+											TOKEN NUMBER '1' on line 0
+										END Factor
+									END Term
+								END Expression
+							END Expression
+						END AssignmentStatement
+						TOKEN ) on line 0
+						TOKEN do on line 0
+						BEGIN StatementList
+							BEGIN Statement
+								BEGIN ProcedureStatement
+									TOKEN call on line 0
+									TOKEN IDENTIFIER 'put' on line 0
+									TOKEN ( on line 0
+									BEGIN ArgumentList
+										TOKEN IDENTIFIER 'x1' on line 0
+										TOKEN , on line 0
+										BEGIN ArgumentList
+											TOKEN IDENTIFIER 'x2' on line 0
+											TOKEN , on line 0
+											BEGIN ArgumentList
+												TOKEN IDENTIFIER 'x3' on line 0
+											END ArgumentList
+										END ArgumentList
+									END ArgumentList
+									TOKEN ) on line 0
+								END ProcedureStatement
+							END Statement
+							TOKEN ; on line 0
+							BEGIN StatementList
+								BEGIN Statement
+									BEGIN AssignmentStatement
+										TOKEN IDENTIFIER 'x3' on line 0
+										TOKEN := on line 0
+										BEGIN Expression
+											BEGIN Term
+												BEGIN Factor
+													TOKEN IDENTIFIER 'x3' on line 0
+												END Factor
+											END Term
+											TOKEN + on line 0
+											BEGIN Expression
+												BEGIN Term
+													BEGIN Factor
+														TOKEN IDENTIFIER 'x2' on line 0
+													END Factor
+												END Term
+											END Expression
+										END Expression
+									END AssignmentStatement
+								END Statement
+							END StatementList
+						END StatementList
+						TOKEN end on line 0
+						TOKEN loop on line 0
+					END ForStatement
+				END Statement
+				TOKEN ; on line 0
+				BEGIN StatementList
+					BEGIN Statement
+						BEGIN ProcedureStatement
+							TOKEN call on line 0
+							TOKEN IDENTIFIER 'put' on line 0
+							TOKEN ( on line 0
+							BEGIN ArgumentList
+								TOKEN IDENTIFIER 'x3' on line 0
+							END ArgumentList
+							TOKEN ) on line 0
+						END ProcedureStatement
+					END Statement
+				END StatementList
+			END StatementList
+		END StatementList
+	END StatementList
+	TOKEN end on line 0
+END StatementPart
+TOKEN EOF on line 1
+SUCCESS
+
+FILE Programs Folder\program11
+BEGIN StatementPart
+	TOKEN begin on line 1
+	BEGIN StatementList
+		BEGIN Statement
+			BEGIN ProcedureStatement
+				TOKEN call on line 2
+				TOKEN IDENTIFIER 'get' on line 2
+				TOKEN ( on line 2
+				BEGIN ArgumentList
+					TOKEN IDENTIFIER 'x1' on line 2
+				END ArgumentList
+				TOKEN ) on line 2
+			END ProcedureStatement
+		END Statement
+		TOKEN ; on line 2
+		BEGIN StatementList
+			BEGIN Statement
+				BEGIN AssignmentStatement
+					TOKEN IDENTIFIER 'x2' on line 3
+					TOKEN := on line 3
+					BEGIN Expression
+						BEGIN Term
+							BEGIN Factor
+								TOKEN NUMBER '1' on line 3
+							END Factor
+						END Term
+					END Expression
+				END AssignmentStatement
+			END Statement
+			TOKEN ; on line 3
+			BEGIN StatementList
+				BEGIN Statement
+					BEGIN WhileStatement
+						TOKEN while on line 4
+						BEGIN Condition
+							TOKEN IDENTIFIER 'x1' on line 4
+							BEGIN ConditionalOperator
+								TOKEN != on line 4
+							END ConditionalOperator
+							TOKEN NUMBER '0' on line 4
+						END Condition
+						TOKEN loop on line 4
+						BEGIN StatementList
+							BEGIN Statement
+								BEGIN AssignmentStatement
+									TOKEN IDENTIFIER 'x2' on line 5
+									TOKEN := on line 5
+									BEGIN Expression
+										BEGIN Term
+											BEGIN Factor
+												TOKEN IDENTIFIER 'x2' on line 5
+											END Factor
+											TOKEN * on line 5
+											BEGIN Term
+												BEGIN Factor
+													TOKEN IDENTIFIER 'x1' on line 5
+												END Factor
+											END Term
+										END Term
+									END Expression
+								END AssignmentStatement
+							END Statement
+							TOKEN ; on line 5
+							BEGIN StatementList
+								BEGIN Statement
+									BEGIN AssignmentStatement
+										TOKEN IDENTIFIER 'x1' on line 6
+										TOKEN := on line 6
+										BEGIN Expression
+											BEGIN Term
+												BEGIN Factor
+													TOKEN IDENTIFIER 'x1' on line 6
+												END Factor
+											END Term
+											TOKEN - on line 6
+											BEGIN Expression
+												BEGIN Term
+													BEGIN Factor
+														TOKEN NUMBER '1' on line 6
+													END Factor
+												END Term
+											END Expression
+										END Expression
+									END AssignmentStatement
+								END Statement
+							END StatementList
+						END StatementList
+						TOKEN end on line 7
+						TOKEN loop on line 7
+					END WhileStatement
+				END Statement
+				TOKEN ; on line 7
+				BEGIN StatementList
+					BEGIN Statement
+						BEGIN AssignmentStatement
+							TOKEN IDENTIFIER 'text' on line 8
+							TOKEN := on line 8
+							TOKEN STRING 'the result is ' on line 8
+						END AssignmentStatement
+					END Statement
+					TOKEN ; on line 8
+					BEGIN StatementList
+						BEGIN Statement
+							BEGIN ProcedureStatement
+								TOKEN call on line 9
+								TOKEN IDENTIFIER 'put' on line 9
+								TOKEN ( on line 9
+								BEGIN ArgumentList
+									TOKEN IDENTIFIER 'text' on line 9
+								END ArgumentList
+								TOKEN ) on line 9
+							END ProcedureStatement
+						END Statement
+						TOKEN ; on line 9
+						BEGIN StatementList
+							BEGIN Statement
+								BEGIN ProcedureStatement
+									TOKEN call on line 10
+									TOKEN IDENTIFIER 'put' on line 10
+									TOKEN ( on line 10
+									BEGIN ArgumentList
+										TOKEN IDENTIFIER 'x1' on line 10
+									END ArgumentList
+									TOKEN ) on line 10
+								END ProcedureStatement
+							END Statement
+							TOKEN ; on line 10
+							BEGIN StatementList
+								BEGIN Statement
+									BEGIN AssignmentStatement
+										TOKEN IDENTIFIER 'x2' on line 11
+										TOKEN := on line 11
+										BEGIN Expression
+											BEGIN Term
+												BEGIN Factor
+													TOKEN IDENTIFIER 'x2' on line 11
+												END Factor
+												TOKEN % on line 11
+												BEGIN Term
+													BEGIN Factor
+														TOKEN IDENTIFIER 'x1' on line 11
+													END Factor
+													TOKEN / on line 11
+													BEGIN Term
+														BEGIN Factor
+															TOKEN NUMBER '2' on line 11
+														END Factor
+													END Term
+												END Term
+											END Term
+										END Expression
+									END AssignmentStatement
+								END Statement
+								TOKEN ; on line 11
+								BEGIN StatementList
+									BEGIN Statement
+										BEGIN ProcedureStatement
+											TOKEN call on line 12
+											TOKEN IDENTIFIER 'put' on line 12
+											TOKEN ( on line 12
+											BEGIN ArgumentList
+												TOKEN IDENTIFIER 'x2' on line 12
+											END ArgumentList
+											TOKEN ) on line 12
+										END ProcedureStatement
+									END Statement
+								END StatementList
+							END StatementList
+						END StatementList
+					END StatementList
+				END StatementList
+			END StatementList
+		END StatementList
+	END StatementList
+	TOKEN end on line 13
+END StatementPart
+TOKEN EOF on line 15
+SUCCESS
+Programs Folder\program12 does not exist
+
+FINISH

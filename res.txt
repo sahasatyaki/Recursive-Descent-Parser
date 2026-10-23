@@ -1,0 +1,46 @@
+Compilation Exception
+	Caused by Syntax Error when parsing (StatementPart) -> Expected {begin <StatementList> end} on line: 1
+	Caused by Expected begin at line 1 Instead found 'begim' in line 1 in file: Programs Folder\program2
+
+Compilation Exception
+	Caused by Syntax Error when parsing (StatementPart) -> Expected {begin <StatementList> end} on line: 2
+	Caused by Syntax Error when parsing (StatementList) -> Expected {<Statement> | <StatementList> ; <Statement>} on line: 3
+	Caused by Syntax Error when parsing (StatementList) -> Expected {<Statement> | <StatementList> ; <Statement>} on line: 4
+	Caused by Syntax Error when parsing (StatementList) -> Expected {<Statement> | <StatementList> ; <Statement>} on line: 4
+	Caused by Syntax Error when parsing (Statement) -> Expected {<AssignmentStatement> | <IfStatement> | <WhileStatement> etc.} on line: 4
+	Caused by Syntax Error when parsing (IfStatement) -> Expected {if <Condition> then <StatementList> end if | if <Condition> then <StatementList> else <StatementList> end if} on line: 11
+	Caused by Missing 'if' after 'end' in 'if' statement. at line 11 Instead found '' in line 11 in file: Programs Folder\program3
+
+Compilation Exception
+	Caused by Syntax Error when parsing (StatementPart) -> Expected {begin <StatementList> end} on line: 2
+	Caused by Syntax Error when parsing (StatementList) -> Expected {<Statement> | <StatementList> ; <Statement>} on line: 3
+	Caused by Syntax Error when parsing (StatementList) -> Expected {<Statement> | <StatementList> ; <Statement>} on line: 4
+	Caused by Syntax Error when parsing (StatementList) -> Expected {<Statement> | <StatementList> ; <Statement>} on line: 4
+	Caused by Syntax Error when parsing (Statement) -> Expected {<AssignmentStatement> | <IfStatement> | <WhileStatement> etc.} on line: 4
+	Caused by Syntax Error when parsing (WhileStatement) -> Expected {while <Condition> loop <StatementList> end loop} on line: 5
+	Caused by Syntax Error when parsing (StatementList) -> Expected {<Statement> | <StatementList> ; <Statement>} on line: 6
+	Caused by Syntax Error when parsing (StatementList) -> Expected {<Statement> | <StatementList> ; <Statement>} on line: 7
+	Caused by Syntax Error when parsing (StatementList) -> Expected {<Statement> | <StatementList> ; <Statement>} on line: 7
+	Caused by Syntax Error when parsing (Statement) -> Expected {<AssignmentStatement> | <IfStatement> | <WhileStatement> etc.} on line: 7
+	Caused by Unexpected token. Expected a statement. at line 7 Instead found 'end' in line 7 in file: Programs Folder\program4
+
+Compilation Exception
+	Caused by Syntax Error when parsing (StatementPart) -> Expected {begin <StatementList> end} on line: 2
+	Caused by Syntax Error when parsing (StatementList) -> Expected {<Statement> | <StatementList> ; <Statement>} on line: 3
+	Caused by Syntax Error when parsing (StatementList) -> Expected {<Statement> | <StatementList> ; <Statement>} on line: 4
+	Caused by Syntax Error when parsing (StatementList) -> Expected {<Statement> | <StatementList> ; <Statement>} on line: 4
+	Caused by Syntax Error when parsing (Statement) -> Expected {<AssignmentStatement> | <IfStatement> | <WhileStatement> etc.} on line: 4
+	Caused by Syntax Error when parsing (WhileStatement) -> Expected {while <Condition> loop <StatementList> end loop} on line: 7
+	Caused by Expected 'loop' after 'end' to close while block. at line 7 Instead found ';' in line 7 in file: Programs Folder\program5
+
+Compilation Exception
+	Caused by Syntax Error when parsing (StatementPart) -> Expected {begin <StatementList> end} on line: 2
+	Caused by Syntax Error when parsing (StatementList) -> Expected {<Statement> | <StatementList> ; <Statement>} on line: 3
+	Caused by Syntax Error when parsing (StatementList) -> Expected {<Statement> | <StatementList> ; <Statement>} on line: 4
+	Caused by Syntax Error when parsing (StatementList) -> Expected {<Statement> | <StatementList> ; <Statement>} on line: 4
+	Caused by Syntax Error when parsing (Statement) -> Expected {<AssignmentStatement> | <IfStatement> | <WhileStatement> etc.} on line: 4
+	Caused by Unexpected token. Expected a statement. at line 4 Instead found 'else' in line 4 in file: Programs Folder\program7
+
+Compilation Exception
+	Caused by Expected EOF at line 12 Instead found 'call' in line 12 in file: Programs Folder\program8
+
